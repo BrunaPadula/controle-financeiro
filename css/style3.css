@@ -1,0 +1,415 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf') format('truetype');
+    font-family: 'Inter';
+    src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.nav {
+    align-items: center;
+    background: #e0e0e0;
+    display: flex;
+    height: 8vh;
+    transition: 0.3s;
+}
+
+.imglogo {
+    margin-left: 150px;
+}
+
+.title {
+    font-size: 20px;
+    color: #333333;
+    margin-left: 5px;
+    width: 411px;
+}
+
+.nav-list {
+    width: 345px;
+    height: 35px;
+    font-size: 16px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-left: 279px;
+    list-style: none;
+    padding-left: 44px;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333333;
+    margin-left: 6px;
+}
+
+.line {
+    width: 1px;
+    height: 20px;
+    background: #333333;
+    margin-left: 6px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+.linemenu {
+    width: 32px;
+    height: 2px;
+    background: #333333;
+    margin: 6px;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+}
+
+.container1 {
+    width: 620px;
+}
+
+.elements {
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.top-1 {
+    border-radius: 4px;
+    border: 1px solid #979797;
+    text-decoration-color: #333333;
+    width: 100%;
+}
+
+.form {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #333333;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+#select {
+    color: #888888;
+    background: none;
+    padding-right: 15px;
+    border-radius: 4px;
+}
+
+.title-elements {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+label {
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 22px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #333333;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 10px 0;
+    border: 0;
+    width: 100%;
+}
+
+.container-2 {
+    width: 80%;
+    max-height: 281px;
+    border-radius: 1rem;
+    height: 480px;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 18px;
+    
+}
+
+table {
+    width: 680px;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.borda {
+    border-bottom: 1px solid #979797;
+}
+
+.coluna2 {
+    text-align: left;
+    width: 231px;
+    height: 25px;
+}
+
+.coluna3 {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.semcadastro {
+    display: none;
+}
+
+.total {
+    font-weight: 700;
+    border-top-style: double;
+    border-top-color: #979797;
+    height: 29px;
+}
+
+.lucro {
+    font-size: 10px;
+    text-align: right;
+    line-height: 5px;
+}
+
+footer {
+    background: #333333;
+    width: 100%;
+    height: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .imglogo {
+        margin-left: 22px;
+    }
+
+    .elements {
+        margin-left: 22px;
+    }
+
+    .container1 {
+        width: 420px;
+    }
+
+    .extract {
+        width: 650px;
+    }
+
+    .nav-list {
+        width: 310px;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .nav {
+        justify-content: space-around;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .nav-list {
+        position: absolute;
+        right: 0;
+        width: 30vw;
+        height: 192vh;
+        background: #333333;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        align-items: end;
+        margin-top: 15vh;
+        transform: translateX(100%);
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+
+    .nav-list a {
+        color: #ffffff;
+        margin-left: 0;
+        line-height: 32px;
+    }
+
+    a:hover {
+        color: #333333;
+    }
+
+    .mobile-line:hover {
+        background: #c4c4c4;
+        width: 100%;
+        text-align: end;
+    }
+
+    .close {
+        display: block;
+        color: #ffffff;
+        cursor: pointer;
+        height: 32px;
+        width: 90%;
+        font-weight: 700;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .hero {
+        display: block;
+        width: 100%;
+    }
+
+    .container1 {
+        width: 98%;
+    }
+
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .block {
+        width: 150px;
+    }
+
+    .block-2 {
+        width: 348px;
+    }
+
+    .block-3 {
+        width: 150px;
+    }
+
+    .button-1 {
+        width: 200px;
+    }
+
+    .form div {
+        margin: 0 5px;
+    }
+
+    .extract {
+        width: 100%;
+    }
+
+    .container-2 {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .title-elements {
+        display: none;
+    }
+
+    .nav-list {
+        width: 80%;
+        
+    }
+    .container1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .elements {
+        width: 90%;
+    }
+
+    .top-1 {
+        border: none;
+    }
+
+    .elementoscoluna1 {
+        height: 310px;
+        border-bottom: 1px solid #979797;
+    }
+
+    .container-2 {
+        width: 100%;
+    }
+
+       .block {
+        width: 100%;
+    }
+
+    #select, input {
+        height: 32px;
+    }
+
+    .block-2 {
+        width: 100%;
+    }
+
+    .block-3 {
+        width: 100%;
+    }
+
+    .button-1 {
+        width: 100%;
+        height: 32px;
+        margin-top: 20px;
+    }
+
+    .extract {
+        width: 90%;
+    }
+
+    label {
+        line-height: 32px;
+    }
+
+    .container-elements {
+        margin-top: 10px;
+    }
+
+    .coluna1 {
+        width: 30px;
+    }
+}
