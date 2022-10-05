@@ -4,23 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/style3.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
     <title>Controle Financeiro</title>
 </head>
 
 <body>
     <div id="root">
-        <div class="App">
-            <div class="set">
-                <div class="nav">
-                    <img class="imglogo" src="./images/logo.png" alt="logo">
-                    <h1 class="title">Controle Financeiro</h1>
+        <div class="nav">
+            <img class="imglogo" src="./images/logo.png" alt="logo">
+                <h1 class="title">
+                    Controle Financeiro
+                </h1>
+                <div>
                     <ul class="nav-list">
-                        <span class="close">x</span>
-                        <li class="mobile-line"><a href="/">Limpar dados</a></li>
-                        <li class="line"></li>
-                        <li class="mobile-line"><a href="/">Cadastro de transações</a></li>
+                        <li class="close">
+                            x
+                        </li>
+                        <li class="mobile-line">
+                            <a href="/">
+                                Limpar dados
+                            </a>
+                        </li>
+                        <li class="line">
+
+                        </li>
+                        <li class="mobile-line">
+                            <a href="/">
+                                Cadastro de transações
+                            </a>
+                        </li>
                     </ul>
+                </div>
                     <div class="mobile-menu">
                         <div class="linemenu"></div>
                         <div class="linemenu"></div>
@@ -36,19 +50,18 @@
                                     <form class="form" action="">
                                         <div class="block">
                                             <label class="tipo">Tipo de Transação</label>
-                                            <select name="Compra" id=select>
+                                            <select name="Compra" class="selector-type">
                                                 <option value="a">Compra</option>
                                                 <option value="b" selected>Venda</option>
                                             </select>
                                         </div>
                                         <div class="block-2">
                                             <label class="mercadoria">Nome da mercadoria</label>
-                                            <input type="text" name="name" id="input" placeholder="input">
+                                            <input type="text" name="campo-mercadoria"  id="campo-mercadoria" placeholder="input">
                                         </div>
                                         <div class="block-3">
-                                            <label class="result">Valor:</label>
-                                            <input type="text" class="result" name="valor" placeholder="R$ 0,00"
-                                                onKeyPress="return(moeda(this,'.',',',event))">
+                                            <label class="value">Valor:</label>
+                                            <input type="text" class="result" name="valor" placeholder="R$ 0,00">
                                         </div>
                                         <button class="button-1">Adicionar transação</button>
                                     </form>
@@ -97,16 +110,17 @@
                                         <td class="coluna3">[LUCRO]</td>
                                     </tr>
                                 </table>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+               
     </div>
 
     <footer></footer>
 
 </body>
 
-</html>
+</html>        
+    
+                
