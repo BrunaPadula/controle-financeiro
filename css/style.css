@@ -76,6 +76,7 @@ body {
 
 .hero {
     width: 100%;
+    max-width: 1112px;
     display: flex;
 }
 
@@ -212,28 +213,6 @@ footer {
     left: 0;
 }
 
-@media screen and (max-width: 1100px) {
-    .imglogo {
-        margin-left: 22px;
-    }
-
-    .elements {
-        margin-left: 22px;
-    }
-
-    .container1 {
-        width: 420px;
-    }
-
-    .extract {
-        width: 650px;
-    }
-
-    .nav-list {
-        width: 310px;
-        padding-left: 25px;
-    }
-}
 
 @media screen and (max-width: 790px) {
 
