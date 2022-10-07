@@ -17,11 +17,9 @@ body {
     transition: 0.3s;
     width: 100%;
     justify-content: center;
+    
 }
 
-.imglogo {
-    margin-left: 22px;
-}
 .menu {
     align-items: center;
     background: #e0e0e0;
@@ -30,6 +28,10 @@ body {
     transition: 0.3s;
     width: 100%;
     max-width: 1112px;   
+}
+
+.imglogo {
+    margin-left: 22px;
 }
 
 .title {
@@ -80,45 +82,38 @@ body {
 
 .hero {
     width: 100%;
-    max-width: 1112px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementosfinanceiro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1112px;
 }
 
 .container1 {
-    width: 620px;
-}
-
-.elements {
+    width: 40%;
     box-sizing: border-box;
-    margin-top: 15px;
-    margin-left: 150px;
-}
-
-.top-1 {
+    margin-top: 26px;
     border-radius: 4px;
     border: 1px solid #979797;
-    text-decoration-color: #333333;
-    width: 100%;
+    margin-left: 20px;
 }
 
-.form {
-    font-size: 14px;
-    font-weight: 400;
-   
-    color: #333333;
-}
-
-.form div {
+.cadastro {
     display: flex;
     flex-direction: column;
-    border-radius: 4px;
-    line-height: 22px;
+    
 }
 
 .selector-type, .result, #campo-mercadoria {
     color: #888888;
     height: 32px;
-    margin: 15px;
+    
 }
 
 .title-elements {
@@ -128,36 +123,32 @@ body {
     text-align: center;
 }
 
-label {
-    
-    font-style: normal;
+.block {
+    margin: 21px 14.9px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
     line-height: 22px;
-    margin: 0;
-    margin-top: 10px;
+    margin-top: 0;  
 }
 
 button {
     background-color: #333333;
     color: #ffffff;
     height: 32px;
-    font-weight: 400;
-    font-size: 14px;
-    border-radius: 4px;
-    margin: 10px 0;
-    border: 0;
     width: 100%;
+    border: 0;
+    border-radius: 4px;
+    
 
 }
 
 .container-2 {
-    width: 100%;
-    border-radius: 1rem;
+    width: 60%;
     color: #000000;
     text-align: center;
     font-weight: 700;
-    margin-top: 30px;
     font-size: 18px;
-    max-width: 1112px; 
 }
 
 .container-elements {
@@ -283,10 +274,6 @@ footer {
         width: 100%;
     }
 
-    .container1 {
-        width: 98%;
-    }
-
     .block {
         width: 25%;
     }
@@ -303,10 +290,13 @@ footer {
         width: 200px;
     }
 
-    .form div {
-        margin: 0 5px;
+    .tabletransaction {
         display: flex;
         flex-direction: row;
+    }
+
+    .form div {
+        margin: 0 5px;
     }
 
     .extract {
