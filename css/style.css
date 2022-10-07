@@ -19,6 +19,9 @@ body {
     justify-content: center;
 }
 
+.imglogo {
+    margin-left: 22px;
+}
 .menu {
     align-items: center;
     background: #e0e0e0;
@@ -61,6 +64,7 @@ body {
 .mobile-menu {
     cursor: pointer;
     display: none;
+    margin-right: 21px;
 }
 
 .close {
@@ -216,29 +220,24 @@ footer {
 
 @media screen and (max-width: 790px) {
 
-    body {
-        overflow: hidden;
-    }
-
-    .nav {
-        justify-content: space-around;
-    }
-
     .title {
         text-align: center;
     }
 
     .nav-list {
         position: fixed;
-        right: 0;
+        right: 30%;
         width: 30%;
-        height: 192vh;
+        height: 100%;
         background: #333333;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         padding: 0;
+        margin-top: 0;
+        top: 0;
         align-items: end;
         transform: translateX(100%);
+        display: none;
     }
 
     .nav-list.active {
@@ -268,6 +267,7 @@ footer {
         height: 32px;
         width: 90%;
         font-weight: 700;
+        margin-top: 20px;
     }
 
     .line {
@@ -287,22 +287,16 @@ footer {
         width: 98%;
     }
 
-    .form {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: end;
-    }
-
     .block {
-        width: 150px;
+        width: 25%;
     }
 
     .block-2 {
-        width: 348px;
+        width: 50%;
     }
 
     .block-3 {
-        width: 150px;
+        width: 25%;
     }
 
     .button-1 {
@@ -311,6 +305,8 @@ footer {
 
     .form div {
         margin: 0 5px;
+        display: flex;
+        flex-direction: row;
     }
 
     .extract {
