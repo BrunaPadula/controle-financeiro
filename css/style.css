@@ -17,7 +17,6 @@ body {
     transition: 0.3s;
     width: 100%;
     justify-content: center;
-    
 }
 
 .menu {
@@ -27,17 +26,17 @@ body {
     height: 8vh;
     transition: 0.3s;
     width: 100%;
-    max-width: 1112px;   
+    max-width: 1112px;
 }
 
-.imglogo {
+.img-logo {
     margin-left: 22px;
 }
 
 .title {
     font-size: 20px;
     color: #333333;
-    width: 100%; 
+    width: 100%;
     margin-left: 20px;
 }
 
@@ -45,14 +44,14 @@ body {
     height: 40px;
     background: #ffffff;
     display: flex;
-    list-style: none;  
-    padding: 0; 
+    list-style: none;
+    padding: 0;
     align-items: center;
 }
 
 .nav-list a {
     text-decoration: none;
-    color: #333333; 
+    color: #333333;
     white-space: nowrap;
     margin: 20px;
 }
@@ -60,7 +59,7 @@ body {
 .line {
     width: 1px;
     height: 20px;
-    background: #333333;   
+    background: #333333;
 }
 
 .mobile-menu {
@@ -73,28 +72,28 @@ body {
     display: none;
 }
 
-.linemenu {
+.line-menu {
     width: 32px;
     height: 2px;
     background: #333333;
     margin: 6px;
 }
 
-.hero {
+.set {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.elementosfinanceiro {
+.financial-elements {
     width: 100%;
     display: flex;
     justify-content: center;
     max-width: 1112px;
 }
 
-.container1 {
+.left-home {
     max-width: 400px;
     width: 100%;
     box-sizing: border-box;
@@ -111,26 +110,27 @@ body {
     text-align: center;
 }
 
-.tabletransaction {
+.table-transaction {
     display: flex;
     flex-direction: column;
     line-height: 22px;
-    
 }
 
-.selector-type, .result, .campo-mercadoria {
+.selector-type,
+.result,
+.field-commodity {
     color: #888888;
-    height: 32px;   
+    height: 32px;
     width: 100%;
     padding: 0;
     margin-bottom: 20px;
 }
 
-.blocktransaction {
+.block-transaction {
     width: 370px;
 }
 
-.button-1 {
+.button-add {
     background-color: #333333;
     color: #ffffff;
     height: 32px;
@@ -140,11 +140,11 @@ body {
     width: 100%;
 }
 
-.cadastro {
+.registration {
     margin: 0 15px 21px 15px;
 }
 
-.container-2 {
+.right-home {
     width: 60%;
     color: #000000;
     text-align: center;
@@ -169,22 +169,22 @@ body {
     margin-left: 20px;
 }
 
-.borda {
+.block-elements {
     border-bottom: 1px solid #979797;
 }
 
-.coluna2 {
+.table-header {
     text-align: left;
     width: 231px;
     height: 25px;
 }
 
-.coluna3 {
+.table-value {
     text-align: right;
     padding-right: 20px;
 }
 
-.semcadastro {
+.no-record {
     display: none;
 }
 
@@ -195,7 +195,7 @@ body {
     height: 29px;
 }
 
-.lucro {
+.lucre {
     font-size: 10px;
     text-align: right;
     line-height: 5px;
@@ -272,43 +272,43 @@ footer {
         display: block;
     }
 
-    .elementosfinanceiro {
+    .financial-elements {
         flex-direction: column;
         align-items: center;
         margin: 20px;
-        
     }
 
-    .container1 {
+    .left-home {
         width: 100%;
         max-width: 728px;
         height: 189px;
     }
 
-    .tabletransaction {
+    .table-transaction {
         flex-direction: row;
     }
 
-    .blockvalue, .blocktransaction {
+    .block-value,
+    .block-transaction {
         width: 25%;
     }
-    
-    .blockmercadoria {
+
+    .block-commodity {
         width: 50%;
         margin: 0px 20px 0px 15px;
     }
 
-    .container-2 {
+    .right-home {
         width: 100%;
         margin-top: 44px;
     }
-    
+
     .container-elements {
         max-width: 730px;
     }
 
-    .button-1 {
-        width: 40%; 
+    .button-add {
+        width: 40%;
         position: fixed;
         right: 20px;
     }
@@ -321,37 +321,40 @@ footer {
         display: none;
     }
 
-    .tabletransaction {
+    .table-transaction {
         flex-direction: column;
     }
 
     .nav-list {
         width: 80%;
-        
     }
-    .container1 {
-        border:none;
+
+    .left-home {
+        border: none;
         height: auto;
     }
 
-    .blockmercadoria {
+    .block-commodity {
         width: 100%;
         margin: 0px;
     }
 
-    .blockvalue, .blocktransaction {
+    .block-value,
+    .block-transaction {
         width: 100%;
     }
-  
-    .button-1 {
+
+    .button-add {
         width: 100%;
         position: relative;
         margin-left: 20px;
     }
 
-    .lineformobile {
+    .line-for-mobile {
         border-bottom: 1px solid #979797;
         width: 100%;
+        margin-top: 15px;
+        margin-left: 15px;
     }
-
+    
 }
