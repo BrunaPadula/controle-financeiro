@@ -12,7 +12,7 @@
     <div class="root">
         <div class="nav">
             <div class="menu">
-                <img class="imglogo" src="./images/logo.png" alt="logo">
+                <img class="img-logo" src="./images/logo.png" alt="logo">
                 <h1 class="title">
                     Controle Financeiro
                 </h1>
@@ -27,7 +27,6 @@
                             </a>
                         </li>
                         <li class="line">
-
                         </li>
                         <li class="mobile-line">
                             <a href="/">
@@ -36,95 +35,94 @@
                         </li>
                     </ul>
                 </div>
-                    <div class="mobile-menu">
-                        <div class="linemenu"></div>
-                        <div class="linemenu"></div>
-                        <div class="linemenu"></div>
-                    </div>
+                <div class="mobile-menu">
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu"></div>
+                </div>
             </div>
         </div>
-            <div class="hero">
-                <div class="elementosfinanceiro">
-                    <div class="container1">                      
-                        <h4 class="title-elements">Nova Transação</h4>
-                            <div>
-                                <form class="cadastro" action="">
-                                    <div class="tabletransaction">
-                                        <div class="blocktransaction">
-                                                    <label class="tipo">Tipo de Transação</label>
-                                                        <select name="Compra" class="selector-type">
-                                                            <option value="a"> Compra</option>
-                                                            <option value="b" selected> Venda</option>
-                                                        </select>
-                                        </div>
-                                        <div class="blockmercadoria">
-                                                    <label class="mercadoria">Nome da mercadoria</label>
-                                                    <input type="text" class="campo-mercadoria"  id="campo-mercadoria" placeholder=" Input">
-                                        </div>
-                                        <div class="blockvalue">
-                                                    <label class="value">Valor:</label>
-                                                    <input type="text" class="result" name="valor" placeholder=" R$ 0,00">
-                                        </div>
-                                    </div> 
-                                        <button class="button-1">Adicionar transação</button> 
-                                </form>
-                            </div>                     
-                    </div>
-                    <div class="lineformobile">             
-                    </div>
-                            <div class="container-2">
-                                <label>
-                                    Extrato de transações
-                                </label>
-                                    <div class="container-elements">
-                                        <table class="extract">
-                                            <tr class="borda">
-                                                <th class="coluna1"></th>
-                                                <th class="coluna2">Mercadoria</th>
-                                                <th class="coluna3">Valor</th>
-                                            </tr>
-                                            <tr class="borda">
-                                                <td class="coluna1">+</td>
-                                                <td class="coluna2">Lorem ipsum dolor sit amet consectetur</td>
-                                                <td class="coluna3">R$ 12.999,99</td>
-                                            </tr>
-                                            <tr class="borda">
-                                                <td class="coluna1">-</td>
-                                                <td class="coluna2">Quis nostrud exercitation</td>
-                                                <td class="coluna3">R$ 99,99</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="coluna1">+</td>
-                                                <td class="coluna2">Lorem ipsum </td>
-                                                <td class="coluna3">R$ 9,99</td>
-                                            </tr>
-                                            <tr class="semcadastro">
-                                                <td class="coluna1"></td>
-                                                <td class="coluna2">Nenhuma transação cadastrada</td>
-                                                <td class="coluna3"></td>
-                                            </tr>
-                                            <tr class="total">
-                                                <td class="coluna1"></td>
-                                                <td class="coluna2">Total</td>
-                                                <td class="coluna3">R$ 12.999,99</td>
-                                            </tr>
-                                            <tr class="lucro">
-                                                <td class="coluna1"></td>
-                                                <td></td>
-                                                <td class="coluna3">[LUCRO]</td>
-                                            </tr>
-                                        </table>
-                                    </div>
+        <div class="set">
+            <div class="financial-elements">
+                <div class="left-home">
+                    <h4 class="title-elements">Nova Transação</h4>
+                    <div>
+                        <form class="registration" action="">
+                            <div class="table-transaction">
+                                <div class="block-transaction">
+                                    <label>Tipo de Transação</label>
+                                    <select name="selector-type" class="selector-type">
+                                        <option value="a"> Compra</option>
+                                        <option value="b" selected> Venda</option>
+                                    </select>
+                                </div>
+                                <div class="block-commodity">
+                                    <label>Nome da mercadoria</label>
+                                    <input type="text" class="field-commodity" id="field-commodity"
+                                        placeholder=" Input">
+                                </div>
+                                <div class="block-value">
+                                    <label>Valor:</label>
+                                    <input type="text" class="result" name="result" placeholder=" R$ 0,00">
+                                </div>
                             </div>
-                    </div> 
-                </div>      
-            </div>  
+                            <button class="button-add">Adicionar transação</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="line-for-mobile">
+                </div>
+                <div class="right-home">
+                    <label>
+                        Extrato de transações
+                    </label>
+                    <div class="container-elements">
+                        <table class="extract">
+                            <thead class="block-elements">
+                                <th></th>
+                                <th class="table header">Mercadoria</th>
+                                <th class="table-value">Valor</th>
+                            </thead>
+                            <tbody class="block-elements">
+                                <td>+</td>
+                                <td class="table-header">Lorem ipsum dolor sit amet consectetur</td>
+                                <td class="table-value">R$ 12.999,99</td>
+                            </tbody>
+                            <tbody class="block-elements">
+                                <td>-</td>
+                                <td class="table-header">Quis nostrud exercitation</td>
+                                <td class="table-value">R$ 99,99</td>
+                            </tbody>
+                            <tbody>
+                                <td>+</td>
+                                <td class="table-header">Lorem ipsum </td>
+                                <td class="table-value">R$ 9,99</td>
+                            </tbody>
+                            <tbody class="no-record">
+                                <td></td>
+                                <td class="table-header">Nenhuma transação cadastrada</td>
+                                <td class="table-value"></td>
+                            </tbody>
+                            <tbody class="total">
+                                <td></td>
+                                <td class="table-header">Total</td>
+                                <td class="table-value">R$ 12.999,99</td>
+                            </tbody>
+                            <tfoot class="lucre">
+                                <td></td>
+                                <td></td>
+                                <td class="table-value">[LUCRO]</td>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <footer></footer>
 
 </body>
 
-</html>        
-    
-                
+</html>
